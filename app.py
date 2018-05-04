@@ -7,7 +7,7 @@ import StringIO
 
 app = Flask(__name__)
 
-CSV_DIR = 'CSIndex\\data\\'
+CSV_DIR = 'data\\'
 
 def ler_arquivo_para_list(nome_arquivo):
     with open(nome_arquivo, 'rU') as ficheiro:
