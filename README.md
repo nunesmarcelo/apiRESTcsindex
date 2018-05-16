@@ -2,4 +2,4 @@
 
 ### 1- Número de publicações em uma determinada conferência de uma área 
 
-<div style="border: 1px solid red">Passar um campo com name "area" que corresponde à area pesquisada, e outro campo com name "conferencia", que corresponde à conferência buscada, e a API retornará o número correspondente à pesquisa. <div>
+#####Passar um campo com name "area" que corresponde à area pesquisada, e outro campo com name "conferencia", que corresponde à conferência buscada, e a API retornará o número correspondente à pesquisa.
