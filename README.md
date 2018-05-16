@@ -21,9 +21,9 @@
   
 ##### Exemplos de uso (rode o projeto para que o servidor possa receber à requisição):
 
-  1º - [127.0.0.1:5000/buscar_conferencia_por_area/ir/WWW](https://127.0.0.1:5000/buscar_conferencia_por_area/ir/WWW)
+  1º - [127.0.0.1:5000/buscar_conferencia_por_area/ir/WWW](127.0.0.1:5000/buscar_conferencia_por_area/ir/WWW)
   
-  2º - [127.0.0.1:5000/buscar_conferencia_por_area/pl/GPCE](https://127.0.0.1:5000/buscar_conferencia_por_area/pl/GPCE)
+  2º - [127.0.0.1:5000/buscar_conferencia_por_area/pl/GPCE](127.0.0.1:5000/buscar_conferencia_por_area/pl/GPCE)
   
  #### 2- Número de publicações no conjunto de conferências de uma área 
   Passar um campo com a {area} que corresponde à area pesquisada, e a API responderá à requisição efetuada com um csv.
@@ -32,6 +32,6 @@
   
 ##### Exemplos de uso (rode o projeto para que o servidor possa receber à requisição):
 
-  1º - [127.0.0.1:5000/buscar_todas_conferencias_area/security/](https://127.0.0.1:5000/buscar_todas_conferencias_area/security/)
+  1º - [127.0.0.1:5000/buscar_todas_conferencias_area/security/](127.0.0.1:5000/buscar_todas_conferencias_area/security/)
   
-  2º - [127.0.0.1:5000/buscar_todas_conferencias_area/theory/](https://127.0.0.1:5000/buscar_todas_conferencias_area/theory/)
+  2º - [127.0.0.1:5000/buscar_todas_conferencias_area/theory/](127.0.0.1:5000/buscar_todas_conferencias_area/theory/)
