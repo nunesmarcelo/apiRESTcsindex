@@ -1,6 +1,5 @@
 ## API REST - MARCELO NUNES DA SILVA 2017023560
 
-<hr/>
 
 ### Introdução: 
 
@@ -16,12 +15,23 @@
 ### Documentação - Para se realizar cada uma das consultas
 
 #### 1- Número de publicações em uma determinada conferência de uma área 
-  Passar um campo com name "area" que corresponde à area pesquisada, e outro campo com name "conferencia", que corresponde à conferência buscada, e a API retornará o número correspondente à pesquisa.
+  Passar um campo com a {area} que corresponde à area pesquisada, e outro campo com a {conferência}, que corresponde à conferência buscada, e a API responderá à requisição efetuada com um csv.
   
   > GET /buscar_conferencia_por_area/{area}/{conferência}
   
-##### Exemplos de uso:
+##### Exemplos de uso (rode o projeto para que o servidor possa receber à requisição):
 
   1º - [127.0.0.1:5000/buscar_conferencia_por_area/ir/WWW](https://127.0.0.1:5000/buscar_conferencia_por_area/ir/WWW)
   
   2º - [127.0.0.1:5000/buscar_conferencia_por_area/pl/GPCE](https://127.0.0.1:5000/buscar_conferencia_por_area/pl/GPCE)
+  
+ #### 2- Número de publicações no conjunto de conferências de uma área 
+  Passar um campo com a {area} que corresponde à area pesquisada, e a API responderá à requisição efetuada com um csv.
+  
+  > GET /buscar_todas_conferencias_area/{area}/
+  
+##### Exemplos de uso (rode o projeto para que o servidor possa receber à requisição):
+
+  1º - [127.0.0.1:5000/buscar_todas_conferencias_area/security/](https://127.0.0.1:5000/buscar_todas_conferencias_area/security/)
+  
+  2º - [127.0.0.1:5000/buscar_todas_conferencias_area/theory/](https://127.0.0.1:5000/buscar_todas_conferencias_area/theory/)
