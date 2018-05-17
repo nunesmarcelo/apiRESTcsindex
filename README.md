@@ -24,9 +24,10 @@
   1º - [http://127.0.0.1:5000/buscar_conferencia_por_area/ir/WWW](http://127.0.0.1:5000/buscar_conferencia_por_area/ir/WWW)
   
   2º - [http://127.0.0.1:5000/buscar_conferencia_por_area/pl/GPCE](http://127.0.0.1:5000/buscar_conferencia_por_area/pl/GPCE)
-  
-  
-  
+<hr>
+
+
+
  ### 2- Número de publicações no conjunto de conferências de uma área 
   Passar um campo com a {area} que corresponde à area pesquisada, e a API responderá à requisição efetuada com um csv.
   
@@ -38,6 +39,7 @@
   
   2º - [http://127.0.0.1:5000/buscar_todas_conferencias_area/theory/](http://127.0.0.1:5000/buscar_todas_conferencias_area/theory/)
   
+  <hr>
   
   
   ### 3- Scores de todos os departamentos em uma área
@@ -50,6 +52,9 @@
   1º - [http://127.0.0.1:5000/scores_departamentos_uma_area/se/](http://127.0.0.1:5000/scores_departamentos_uma_area/se/)
   
   2º - [http://127.0.0.1:5000/scores_departamentos_uma_area/vision/](http://127.0.0.1:5000/scores_departamentos_uma_area/vision/)
+  
+  <hr>
+  
   
   
   ### 4- Score de um determinado departamento em uma área.
