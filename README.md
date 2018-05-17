@@ -19,19 +19,46 @@
   
   > GET /buscar_conferencia_por_area/{area}/{conferência}
   
-##### Exemplos de uso (rode o projeto para que o servidor possa receber à requisição):
+##### Exemplos de uso (rode o projeto para que o servidor possa receber à requisição, e o link irá funcionar, por executar essa requisição como GET):
 
   1º - [http://127.0.0.1:5000/buscar_conferencia_por_area/ir/WWW](http://127.0.0.1:5000/buscar_conferencia_por_area/ir/WWW)
   
   2º - [http://127.0.0.1:5000/buscar_conferencia_por_area/pl/GPCE](http://127.0.0.1:5000/buscar_conferencia_por_area/pl/GPCE)
+  
+  
   
  #### 2- Número de publicações no conjunto de conferências de uma área 
   Passar um campo com a {area} que corresponde à area pesquisada, e a API responderá à requisição efetuada com um csv.
   
   > GET /buscar_todas_conferencias_area/{area}/
   
-##### Exemplos de uso (rode o projeto para que o servidor possa receber à requisição):
+##### Exemplos de uso (rode o projeto para que o servidor possa receber à requisição, e o link irá funcionar, por executar essa requisição como GET):
 
   1º - [http://127.0.0.1:5000/buscar_todas_conferencias_area/security/](http://127.0.0.1:5000/buscar_todas_conferencias_area/security/)
   
   2º - [http://127.0.0.1:5000/buscar_todas_conferencias_area/theory/](http://127.0.0.1:5000/buscar_todas_conferencias_area/theory/)
+  
+  
+  
+  #### 3- Scores de todos os departamentos em uma área
+   Passar um campo com a {area} que corresponde à area pesquisada, e a API responderá à requisição efetuada com um csv.
+  
+  > GET /scores_departamentos_uma_area/{area}/
+  
+##### Exemplos de uso (rode o projeto para que o servidor possa receber à requisição, e o link irá funcionar, por executar essa requisição como GET):
+
+  1º - [http://127.0.0.1:5000/scores_departamentos_uma_area/se/](http://127.0.0.1:5000/scores_departamentos_uma_area/se/)
+  
+  2º - [http://127.0.0.1:5000/scores_departamentos_uma_area/vision/](http://127.0.0.1:5000/scores_departamentos_uma_area/vision/)
+  
+  
+  #### 4- Score de um determinado departamento em uma área.
+   Passar um campo com a {area} que corresponde à area pesquisada, e o nome do {departamento} buscado, e a API responderá à requisição efetuada com um csv.
+  
+  > GET /score_departamento_uma_area/{area}/{departamento}
+  
+##### Exemplos de uso (rode o projeto para que o servidor possa receber à requisição, e o link irá funcionar, por executar essa requisição como GET):
+
+  1º - [http://127.0.0.1:5000/professores_departamento_uma_area/ai/UFPE](http://127.0.0.1:5000/professores_departamento_uma_area/ai/UFPE)
+  
+  2º - [http://127.0.0.1:5000/professores_departamento_uma_area/se/UFMG](http://127.0.0.1:5000/professores_departamento_uma_area/se/UFMG)
