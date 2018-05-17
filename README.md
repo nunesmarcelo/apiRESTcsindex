@@ -136,7 +136,7 @@
 
   1º - [http://127.0.0.1:5000/papers_uma_area_departamento/ir/UFMG](http://127.0.0.1:5000/papers_uma_area_departamento/ir/UFMG)
   
-  2º - [http://127.0.0.1:5000/papers_uma_area_departamento/is/UFBA](http://127.0.0.1:5000/papers_uma_area_departamento/is/UFBA)
+  2º - [http://127.0.0.1:5000/papers_uma_area_departamento/is/UFES](http://127.0.0.1:5000/papers_uma_area_departamento/is/UFES)
   
   <hr>
   
@@ -149,8 +149,8 @@
   
 #### Exemplos de uso (rode o projeto para que o servidor possa receber à requisição, e o link irá funcionar, por executar essa requisição como GET):
 
-  1º - [127.0.0.1:5000/papers_uma_area_autor/se/Marco Tulio](http://127.0.0.1:5000/papers_uma_area_autor/nomedaarea/autor)
+  1º - [127.0.0.1:5000/papers_uma_area_autor/se/Marco Tulio Valente](http://127.0.0.1:5000/papers_uma_area_autor/se/Marco%20Tulio%20Valente)
   
-  2º - [127.0.0.1:5000/papers_uma_area_autor/vision/Jefersson A. dos Santos](http://127.0.0.1:5000/papers_uma_area_autor/vision/Jefersson A. dos Santos)
+  2º - [127.0.0.1:5000/papers_uma_area_autor/vision/Jefersson A. dos Santos](http://127.0.0.1:5000/papers_uma_area_autor/vision/Jefersson%20A.%20dos%20Santos)
   
   
