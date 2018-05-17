@@ -21,7 +21,8 @@
   
 ##### Exemplos de uso (rode o projeto para que o servidor possa receber à requisição):
 
-  1º - [127.0.0.1:5000/buscar_conferencia_por_area/ir/WWW](127.0.0.1:5000/buscar_conferencia_por_area/ir/WWW)
+  1º - <a href="127.0.0.1:5000/buscar_conferencia_por_area/ir/WWW"> testando </a>
+  [127.0.0.1:5000/buscar_conferencia_por_area/ir/WWW](127.0.0.1:5000/buscar_conferencia_por_area/ir/WWW)
   
   2º - [127.0.0.1:5000/buscar_conferencia_por_area/pl/GPCE](127.0.0.1:5000/buscar_conferencia_por_area/pl/GPCE)
   
