@@ -106,7 +106,7 @@
   
 #### Exemplos de uso (rode o projeto para que o servidor possa receber à requisição, e o link irá funcionar, por executar essa requisição como GET):
 
-  1º - [http://127.0.0.1:5000/papers_uma_area/formal/](http://127.0.0.1:5000/papers_uma_area/formal/)
+  1º - [http://127.0.0.1:5000/papers_uma_area/formal/](http://127.0.0.1:5000/papers_uma_area/formal)
   
   2º - [http://127.0.0.1:5000/papers_uma_area/db/](http://127.0.0.1:5000/papers_uma_area/db)
   
