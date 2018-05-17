@@ -80,7 +80,7 @@
 
   1º - [http://127.0.0.1:5000/professores_departamento_uma_area/se/UFMG](http://127.0.0.1:5000/professores_departamento_uma_area/se/UFMG)
   
-  2º - [http://127.0.0.1:5000/professores_departamento_uma_area/arch/UFBA](http://127.0.0.1:5000/professores_departamento_uma_area/se/UFMG)
+  2º - [http://127.0.0.1:5000/professores_departamento_uma_area/arch/UFBA](http://127.0.0.1:5000/professores_departamento_uma_area/arch/UFBA)
   
   <hr>
   
@@ -92,9 +92,9 @@
   
 #### Exemplos de uso (rode o projeto para que o servidor possa receber à requisição, e o link irá funcionar, por executar essa requisição como GET):
 
-  1º - [http://127.0.0.1:5000/professores_departamentos_uma_area/ai/](http://127.0.0.1:5000/professores_departamento_uma_area/se/UFMG)
+  1º - [http://127.0.0.1:5000/professores_departamentos_uma_area/ai/](http://127.0.0.1:5000/professores_departamento_uma_area/chi)
   
-  2º - [http://127.0.0.1:5000/professores_departamentos_uma_area/chi/](http://127.0.0.1:5000/professores_departamento_uma_area/se/UFMG)
+  2º - [http://127.0.0.1:5000/professores_departamentos_uma_area/chi/](http://127.0.0.1:5000/professores_departamento_uma_area/chi)
   
   <hr>
   
