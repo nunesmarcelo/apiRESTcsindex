@@ -49,9 +49,9 @@
   
 #### Exemplos de uso (rode o projeto para que o servidor possa receber à requisição, e o link irá funcionar, por executar essa requisição como GET):
 
-  1º - [http://127.0.0.1:5000/scores_departamentos_uma_area/se/](http://127.0.0.1:5000/scores_departamentos_uma_area/se/)
+  1º - [http://127.0.0.1:5000/scores_departamentos_uma_area/se/](http://127.0.0.1:5000/scores_departamentos_uma_area/se)
   
-  2º - [http://127.0.0.1:5000/scores_departamentos_uma_area/vision/](http://127.0.0.1:5000/scores_departamentos_uma_area/vision/)
+  2º - [http://127.0.0.1:5000/scores_departamentos_uma_area/vision/](http://127.0.0.1:5000/scores_departamentos_uma_area/vision)
   
   <hr>
   
@@ -72,29 +72,29 @@
   
  
    ### 5- Número de professores que publicam em uma determinada área (organizados por departamentos)
+   Passar um campo com a {area} que corresponde à area pesquisada, e a API responderá à requisição efetuada com um csv.
+  
+  > GET /professores_departamento_uma_area/{area}/
+  
+#### Exemplos de uso (rode o projeto para que o servidor possa receber à requisição, e o link irá funcionar, por executar essa requisição como GET):
+
+  1º - [http://127.0.0.1:5000/professores_departamentos_uma_area/ai](http://127.0.0.1:5000/professores_departamentos_uma_area/ai)
+  
+  2º - [http://127.0.0.1:5000/professores_departamentos_uma_area/chi](http://127.0.0.1:5000/professores_departamentos_uma_area/chi)
+  
+  <hr>
+  
+  
+   ### 6- Número de professores de um determinado departamento que publicam em uma área
    Passar um campo com a {area} que corresponde à area pesquisada, e o nome do {departamento} buscado, e a API responderá à requisição efetuada com um csv.
   
-  > GET /professores_departamento_uma_area/{area}/{departamento}
+  > GET /professores_departamentos_uma_area/{area}/{departamento}
   
 #### Exemplos de uso (rode o projeto para que o servidor possa receber à requisição, e o link irá funcionar, por executar essa requisição como GET):
 
   1º - [http://127.0.0.1:5000/professores_departamento_uma_area/se/UFMG](http://127.0.0.1:5000/professores_departamento_uma_area/se/UFMG)
   
   2º - [http://127.0.0.1:5000/professores_departamento_uma_area/arch/UFBA](http://127.0.0.1:5000/professores_departamento_uma_area/arch/UFBA)
-  
-  <hr>
-  
-  
-   ### 6- Número de professores de um determinado departamento que publicam em uma área
-   Passar um campo com a {area} que corresponde à area pesquisada, e a API responderá à requisição efetuada com um csv.
-  
-  > GET /professores_departamentos_uma_area/{area}/
-  
-#### Exemplos de uso (rode o projeto para que o servidor possa receber à requisição, e o link irá funcionar, por executar essa requisição como GET):
-
-  1º - [http://127.0.0.1:5000/professores_departamentos_uma_area/ai/](http://127.0.0.1:5000/professores_departamento_uma_area/chi)
-  
-  2º - [http://127.0.0.1:5000/professores_departamentos_uma_area/chi/](http://127.0.0.1:5000/professores_departamento_uma_area/chi)
   
   <hr>
   
