@@ -45,7 +45,7 @@
   ### 3- Scores de todos os departamentos em uma área
    Passar um campo com a {area} que corresponde à area pesquisada, e a API responderá à requisição efetuada com um csv.
   
-  > GET /scores_departamentos_uma_area/{area}/
+  > GET /scores_departamentos_uma_area/{area}
   
 #### Exemplos de uso (rode o projeto para que o servidor possa receber à requisição, e o link irá funcionar, por executar essa requisição como GET):
 
@@ -74,7 +74,7 @@
    ### 5- Número de professores que publicam em uma determinada área (organizados por departamentos)
    Passar um campo com a {area} que corresponde à area pesquisada, e a API responderá à requisição efetuada com um csv.
   
-  > GET /professores_departamento_uma_area/{area}/
+  > GET /professores_departamento_uma_area/{area}
   
 #### Exemplos de uso (rode o projeto para que o servidor possa receber à requisição, e o link irá funcionar, por executar essa requisição como GET):
 
@@ -102,7 +102,7 @@
    ### 7- Todos os papers de uma área (ano, título, deptos e autores)
    Passar um campo com a {area} que corresponde à area pesquisada, e a API responderá à requisição efetuada com um csv.
   
-  > GET /papers_uma_area/{area}/
+  > GET /papers_uma_area/{area}
   
 #### Exemplos de uso (rode o projeto para que o servidor possa receber à requisição, e o link irá funcionar, por executar essa requisição como GET):
 
