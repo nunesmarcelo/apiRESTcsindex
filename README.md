@@ -31,13 +31,13 @@
  ### 2- Número de publicações no conjunto de conferências de uma área 
   Passar um campo com a {area} que corresponde à area pesquisada, e a API responderá à requisição efetuada com um csv.
   
-  > GET /buscar_todas_conferencias_area/{area}/
+  > GET /buscar_todas_conferencias_area/{area}
   
 #### Exemplos de uso (rode o projeto para que o servidor possa receber à requisição, e o link irá funcionar, por executar essa requisição como GET):
 
-  1º - [http://127.0.0.1:5000/buscar_todas_conferencias_area/security/](http://127.0.0.1:5000/buscar_todas_conferencias_area/security/)
+  1º - [http://127.0.0.1:5000/buscar_todas_conferencias_area/security](http://127.0.0.1:5000/buscar_todas_conferencias_area/security)
   
-  2º - [http://127.0.0.1:5000/buscar_todas_conferencias_area/theory/](http://127.0.0.1:5000/buscar_todas_conferencias_area/theory/)
+  2º - [http://127.0.0.1:5000/buscar_todas_conferencias_area/theory](http://127.0.0.1:5000/buscar_todas_conferencias_area/theory)
   
   <hr>
   
@@ -49,9 +49,9 @@
   
 #### Exemplos de uso (rode o projeto para que o servidor possa receber à requisição, e o link irá funcionar, por executar essa requisição como GET):
 
-  1º - [http://127.0.0.1:5000/scores_departamentos_uma_area/se/](http://127.0.0.1:5000/scores_departamentos_uma_area/se)
+  1º - [http://127.0.0.1:5000/scores_departamentos_uma_area/se](http://127.0.0.1:5000/scores_departamentos_uma_area/se)
   
-  2º - [http://127.0.0.1:5000/scores_departamentos_uma_area/vision/](http://127.0.0.1:5000/scores_departamentos_uma_area/vision)
+  2º - [http://127.0.0.1:5000/scores_departamentos_uma_area/vision](http://127.0.0.1:5000/scores_departamentos_uma_area/vision)
   
   <hr>
   
@@ -106,9 +106,9 @@
   
 #### Exemplos de uso (rode o projeto para que o servidor possa receber à requisição, e o link irá funcionar, por executar essa requisição como GET):
 
-  1º - [http://127.0.0.1:5000/papers_uma_area/formal/](http://127.0.0.1:5000/papers_uma_area/formal)
+  1º - [http://127.0.0.1:5000/papers_uma_area/formal](http://127.0.0.1:5000/papers_uma_area/formal)
   
-  2º - [http://127.0.0.1:5000/papers_uma_area/db/](http://127.0.0.1:5000/papers_uma_area/db)
+  2º - [http://127.0.0.1:5000/papers_uma_area/db](http://127.0.0.1:5000/papers_uma_area/db)
   
   <hr>
   
